@@ -114,7 +114,7 @@ namespace WindowsAPI
 
 
 
-        public static string GeCNAMERecord(string domain, string[] serverIP = null)
+        public static string GetCNAMERecord(string domain, string[] serverIP = null)
         {
             IntPtr recordsArray = IntPtr.Zero;
             IntPtr dnsRecord = IntPtr.Zero;
